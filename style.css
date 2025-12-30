@@ -2,16 +2,43 @@
   background-color: #012d63;
 }
 
+.header-container {
+  display: flex;
+}
+
 .header-logo {
   width: 100px;
   height: 60px;
+  margin-right: 152px;
 }
 
 .header-nav {
+  align-content: center;
+  margin-right: 73px;
+}
+
+.header-list {
+  display: flex;
+  gap: 29px;
+}
+
+.header-item {
+}
+
+.header-page {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 24px;
   color: #c7c7c7;
+}
+
+.header-list-languages {
+  display: flex;
+}
+
+.header-item-languages {
+  align-content: center;
+  margin-left: 15px;
 }
 
 .header-ua {
@@ -28,11 +55,19 @@
 }
 
 .hero {
+  background-image: url("./images/snikers-nike.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding-top: 108px;
+  padding-bottom: 183px;
 }
 
 .hero-photo {
   width: 160px;
   height: 120px;
+  margin-left: 5px;
 }
 
 .hero-CR {
@@ -40,6 +75,7 @@
   font-weight: 400;
   font-size: 48px;
   color: #fff;
+  margin-left: 39px;
 }
 
 .hero-title {
@@ -54,6 +90,7 @@
   font-weight: 400;
   font-size: 72px;
   color: #fff;
+  margin-bottom: 12px;
 }
 
 .hero-text {
@@ -61,6 +98,8 @@
   font-weight: 400;
   font-size: 18px;
   color: #fff;
+  margin-bottom: 41px;
+  max-width: 508px;
 }
 
 .hero-button {
@@ -73,17 +112,78 @@
   height: 67px;
 }
 
-.features-title {
+.features {
+  background-image: url("./images/features.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.features-list {
+  display: flex;
+  border: solid #8e32c6;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.features-item {
+}
+
+.features-title1 {
   font-family: "PT Serif";
   font-weight: 400;
   font-size: 36px;
   text-align: center;
   color: #fff;
+  margin-left: 91px;
+  max-width: 159px;
+  border-right: 1px solid #fff;
+  width: 346px;
+  height: 346px;
 }
 
-.features-photo {
+.features-title2 {
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  max-width: 161px;
+  border-right: 1px solid #fff;
+  width: 346px;
+  height: 346px;
+
+}
+
+.features-title3 {
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+  max-width: 151px;
+  margin-right: 94px;
+}
+
+.features-photo1 {
   width: 240px;
   height: 240px;
+  margin-left: 50px;
+}
+
+.features-photo2 {
+  width: 240px;
+  height: 240px;
+}
+
+.features-photo3 {
+  width: 240px;
+  height: 240px;
+  margin-right: 50px;
 }
 
 .reviews-title {
@@ -199,4 +299,10 @@
   font-weight: 400;
   font-size: 24px;
   color: #fff;
+}
+
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
 }
