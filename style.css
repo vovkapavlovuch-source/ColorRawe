@@ -1,0 +1,202 @@
+.header {
+  background-color: #012d63;
+}
+
+.header-logo {
+  width: 100px;
+  height: 60px;
+}
+
+.header-nav {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  color: #c7c7c7;
+}
+
+.header-ua {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-size: 24px;
+  color: #dcdcdc;
+}
+
+.header-eng {
+  font-weight: 400;
+  font-size: 24px;
+  color: #dcdcdc;
+}
+
+.hero {
+}
+
+.hero-photo {
+  width: 160px;
+  height: 120px;
+}
+
+.hero-CR {
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 48px;
+  color: #fff;
+}
+
+.hero-title {
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 144px;
+  color: #fff;
+}
+
+.hero-subtitle {
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 72px;
+  color: #fff;
+}
+
+.hero-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.hero-button {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  background-color: #8e32c6;
+  color: #fff;
+  width: 254px;
+  height: 67px;
+}
+
+.features-title {
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 36px;
+  text-align: center;
+  color: #fff;
+}
+
+.features-photo {
+  width: 240px;
+  height: 240px;
+}
+
+.reviews-title {
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+}
+
+.reviews-subtitle {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+.reviews-number {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #d8d8d8;
+}
+
+.reviews-photo {
+  border-radius: 100%;
+}
+
+.reviews-name {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+}
+
+.reviews-with-us {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 12px;
+  color: #d8d8d8;
+}
+
+.order-title {
+  font-family: "Playfair";
+  font-weight: 400;
+  font-size: 48px;
+  color: #fff;
+}
+
+.order-email {
+  border-radius: 50px;
+  width: 690px;
+  height: 60px;
+  background-color: #fff;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 28px;
+  color: #959595;
+}
+
+.order-your {
+  border-radius: 50px;
+  width: 580px;
+  height: 50px;
+  background-color: #fff;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  color: #959595;
+}
+
+.order-button {
+  border-radius: 16px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+  background-color: #8e32c6;
+  width: 248px;
+  height: 68px;
+}
+
+.footer-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+
+.footer-email {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.footer-rights {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+}
+
+.footer-photo {
+  width: 108px;
+  height: 81px;
+}
+
+.footer-CR {
+  font-family: "PT Serif";
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
