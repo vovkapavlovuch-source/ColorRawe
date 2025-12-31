@@ -1,5 +1,13 @@
+.container {
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header {
   background-color: #012d63;
+  padding-top: 16px;
+  padding-bottom: 14px;
 }
 
 .header-container {
@@ -107,6 +115,7 @@
   font-weight: 400;
   font-size: 24px;
   background-color: #8e32c6;
+  border-radius: 10px;
   color: #fff;
   width: 254px;
   height: 67px;
@@ -131,6 +140,19 @@
 }
 
 .features-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 25px 50px;
+}
+
+.features-item:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+
+.features-item:nth-child(2) {
+  padding: 25px 95px;
 }
 
 .features-title1 {
@@ -139,11 +161,6 @@
   font-size: 36px;
   text-align: center;
   color: #fff;
-  margin-left: 91px;
-  max-width: 159px;
-  border-right: 1px solid #fff;
-  width: 346px;
-  height: 346px;
 }
 
 .features-title2 {
@@ -152,11 +169,7 @@
   font-size: 36px;
   text-align: center;
   color: #fff;
-  max-width: 161px;
-  border-right: 1px solid #fff;
-  width: 346px;
-  height: 346px;
-
+  width: 161px;
 }
 
 .features-title3 {
@@ -165,25 +178,59 @@
   font-size: 36px;
   text-align: center;
   color: #fff;
-  max-width: 151px;
-  margin-right: 94px;
+  width: 151px;
 }
 
-.features-photo1 {
-  width: 240px;
-  height: 240px;
-  margin-left: 50px;
+.reviews {
+  background-image: url("./images/flowers.png"), url("./images/reviews.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 340px 380px, cover;
+  background-position: left bottom, bottom;
+  padding-top: 24px;
+  padding-bottom: 134px;
+  border: 2px solid #fff;
 }
 
-.features-photo2 {
-  width: 240px;
-  height: 240px;
+.reviews-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 93px;
 }
 
-.features-photo3 {
-  width: 240px;
-  height: 240px;
-  margin-right: 50px;
+.reviews-item {
+  box-shadow: 0 30px 0 -13px #732f26, 0 14px 0 -5px #b95a4c;
+  background-image: linear-gradient(
+    135deg,
+    #ffe128 0%,
+    #ff9b5c 30.21%,
+    #ff8381 63.29%,
+    #ff5489 100%
+  );
+  padding: 49px 14px 29px 14px;
+  border-radius: 15px;
+}
+
+.reviews-item:nth-child(2) {
+  box-shadow: 0 30px 0 -13px #61337c, 0 14px 0 -5px #9159b1;
+  background-image: linear-gradient(
+    135deg,
+    #ff68b4 0%,
+    #ff45e1 26.04%,
+    #ce3aff 62.84%,
+    #8961ff 100%
+  );
+}
+
+.reviews-item:nth-child(1) {
+  box-shadow: 0 30px 0 -13px #533978, 0 14px 0 -5px #7b54b2;
+  background-image: linear-gradient(
+    135deg,
+    #00e5e6 7.29%,
+    #00a8f7 26.04%,
+    #9a76f9 62.5%,
+    #cc5ec2 100%
+  );
 }
 
 .reviews-title {
@@ -192,6 +239,7 @@
   font-size: 48px;
   text-align: center;
   color: #fff;
+  margin-bottom: 24px;
 }
 
 .reviews-subtitle {
@@ -199,6 +247,8 @@
   font-weight: 400;
   font-size: 24px;
   color: #fff;
+  width: 228px;
+  margin-bottom: 8px;
 }
 
 .reviews-number {
@@ -206,10 +256,19 @@
   font-weight: 400;
   font-size: 14px;
   color: #d8d8d8;
+  margin-bottom: 47px;
+}
+
+.reviews-box {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .reviews-photo {
   border-radius: 100%;
+  width: 31px;
+  height: 31px;
 }
 
 .reviews-name {
@@ -226,11 +285,29 @@
   color: #d8d8d8;
 }
 
+.order {
+  background-image: url("./images/order.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  padding-bottom: 37px;
+}
+
 .order-title {
+  display: flex;
+  justify-content: center;
   font-family: "Playfair";
   font-weight: 400;
   font-size: 48px;
   color: #fff;
+  margin-bottom: 33px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .order-email {
@@ -242,6 +319,7 @@
   font-weight: 400;
   font-size: 28px;
   color: #959595;
+  margin-bottom: 19px;
 }
 
 .order-your {
@@ -253,6 +331,7 @@
   font-weight: 400;
   font-size: 24px;
   color: #959595;
+  margin-bottom: 19px;
 }
 
 .order-button {
@@ -299,10 +378,4 @@
   font-weight: 400;
   font-size: 24px;
   color: #fff;
-}
-
-.container {
-  width: 1140px;
-  margin-left: auto;
-  margin-right: auto;
 }
