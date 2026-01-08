@@ -352,6 +352,35 @@
   color: #fff;
 }
 
+.footer {
+  background-color: #021635;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 15px;
+}
+
+.footer-item {
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  width: 354px;
+}
+
+.footer-box {
+  display: flex;
+  border-bottom: 2px solid #9b9b9b;
+}
+
+.footer-address {
+  margin-left: 415px;
+}
+
 .footer-email {
   font-family: "Roboto";
   font-weight: 400;
@@ -359,6 +388,18 @@
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #fff;
+}
+
+.footer-bottom {
+  display: flex;
+}
+
+.footer-div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 724px;
+  padding-top: 24px;
+  gap: 7px;
 }
 
 .footer-rights {
@@ -378,4 +419,5 @@
   font-weight: 400;
   font-size: 24px;
   color: #fff;
+  margin-left: 30px;
 }
